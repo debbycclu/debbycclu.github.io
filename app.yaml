@@ -1,0 +1,13 @@
+runtime: nodejs20
+env: standard
+
+instance_class: F1
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 10
+
+env_variables:
+  GOOGLE_SHEETS_DOCUMENT_ID: "1hlpPo1l7YZkqkQetWOPdEu4q8vTk2CIWHvFEWNknkAM"
+  GOOGLE_SHEETS_CLIENT_EMAIL: "movie-list@my-website-450002.iam.gserviceaccount.com"

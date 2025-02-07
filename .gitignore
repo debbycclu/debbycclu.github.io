@@ -1,0 +1,6 @@
+node_modules/
+.env
+.DS_Store
+*.log
+# Google Cloud credentials
+my-website-450002-1eb2dd6f9e4c.json
