@@ -62,31 +62,30 @@ document.addEventListener('DOMContentLoaded', () => {
     // Projects Data
     const projects = [
         {
-            title: "Health Monitoring App Integration",
+            title: "Health Monitoring App Testing",
             category: "software-development",
             categoryLabel: "#SoftwareDevelopment",
             description: "Enhanced health monitoring app with end-to-end data streaming between Apple Watch and backend systems.",
             image: "/images/projects/health-app.jpg",
-            tools: ["XCode", "Kafka", "InfluxDB", "Postman"],
+            tools: ["XCode", "Kafka", "Python", "InfluxDB", "Django", "Postman", "Pilot Testing"],
             link: "/projects/health-monitoring-integration.html"
         },
         {
             title: "Insurance Process Automation",
-            category: "software-development",
-            categoryLabel: "#SoftwareDevelopment",
-            description: "Automated insurance claim processing using Python and machine learning, improving efficiency by 60%.",
+            category: "product-management",
+            categoryLabel: "#ProductManagement",
+            description: "Optimized internal workflows and led process automation initiatives as a PM Intern, improving efficiency across multiple tools and systems.",
             image: "/images/projects/insurance-automation.jpg",
-            tools: ["Python", "Machine Learning", "Process Automation"],
-            link: "#",
-            comingSoon: true
+            tools: ["Python", "Jira", "Phrase CMS", "Mermaid Diagrams", "API Integration"],
+            link: "/projects/insurance-process-automation.html"
         },
         {
             title: "Network Infrastructure Management",
-            category: "infrastructure",
-            categoryLabel: "#Infrastructure",
-            description: "Led enterprise network solutions and event infrastructure projects, serving over 50,000 users.",
+            category: "project-management",
+            categoryLabel: "#ProjectManagement",
+            description: "Led enterprise network solutions and event infrastructure projects, serving over 5,000 users.",
             image: "/images/projects/network-management.jpg",
-            tools: ["Network Design", "Project Management", "Cisco", "Security"],
+            tools: ["Network Design", "Project Management", "B2B SaaS", "Salesforce", "Security"],
             link: "/projects/network-management.html"
         },
         {
@@ -95,16 +94,16 @@ document.addEventListener('DOMContentLoaded', () => {
             categoryLabel: "#ProjectManagement",
             description: "Led Japanese cultural exhibitions in Taiwan, managing IP licensing and visitor experience.",
             image: "/images/projects/exhibition-management.jpg",
-            tools: ["Project Management", "Team Leadership", "Event Planning"],
+            tools: ["Project Management", "Team Leadership", "Event Planning", "Excel", "Localization"],
             link: "/projects/exhibition-management.html"
         },
         {
-            title: "Sales Performance Analytics",
+            title: "Movie Trends Analytics",
             category: "data-analysis",
             categoryLabel: "#DataAnalysis",
             description: "Developed interactive dashboards for sales tracking, enabling data-driven decision making.",
             image: "/images/projects/sales-analytics.jpg",
-            tools: ["Tableau", "SQL", "Data Analysis", "Visualization"],
+            tools: ["Tableau", "SQL", "Java", "Hadoop", "Data Analysis", "Visualization"],
             link: "#",
             comingSoon: true
         },
@@ -114,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
             categoryLabel: "#WebDevelopment",
             description: "Modern, responsive portfolio website showcasing projects and professional experience.",
             image: "/images/projects/portfolio-website.jpg",
-            tools: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+            tools: ["AI", "GCP", "Google Sheets API", "Version Control", "Responsive Design"],
             link: "#",
             comingSoon: true
         }
