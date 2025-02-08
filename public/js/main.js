@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "product-management",
             categoryLabel: "#ProductManagement",
             description: "Streamlined internal workflows and optimized tools for cross-functional collaboration.",
-            image: "/images/projects/insurance-hero.JPG",
+            image: "/images/projects/insurance-automation.jpg",
             tools: ["Python", "Jira", "Phrase CMS", "Mermaid Diagrams", "API Integration"],
             link: "/projects/insurance-process-automation.html"
         },
