@@ -74,8 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "Insurance Process Automation",
             category: "product-management",
             categoryLabel: "#ProductManagement",
-            description: "Optimized internal workflows and led process automation initiatives as a PM Intern, improving efficiency across multiple tools and systems.",
-            image: "/images/projects/insurance-automation.jpg",
+            description: "Streamlined internal workflows and optimized tools for cross-functional collaboration.",
+            image: "/images/projects/insurance-hero.JPG",
             tools: ["Python", "Jira", "Phrase CMS", "Mermaid Diagrams", "API Integration"],
             link: "/projects/insurance-process-automation.html"
         },
