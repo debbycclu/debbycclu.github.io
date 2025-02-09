@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             try {
-                const response = await fetch('https://my-website-450002.uc.r.appspot.com/api/contact', {
+                const response = await fetch('https://my-website-450002.ue.r.appspot.com/api/contact', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
