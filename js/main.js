@@ -32,16 +32,18 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             // Create mailto link with form data
-            const mailtoLink = `mailto:debbylu0513@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
+            const mailtoLink = `mailto:debby.cclu@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
             
             // Open email client
             window.location.href = mailtoLink;
 
-            // Reset form and button state
-            contactForm.reset();
-            buttonText.classList.remove('hidden');
-            buttonLoading.classList.add('hidden');
-            submitButton.disabled = false;
+            // Reset form and button state after a short delay
+            setTimeout(() => {
+                contactForm.reset();
+                buttonText.classList.remove('hidden');
+                buttonLoading.classList.add('hidden');
+                submitButton.disabled = false;
+            }, 1000);
         });
     }
 
