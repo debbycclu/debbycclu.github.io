@@ -1,0 +1,9 @@
+{
+  "name": "personal-website-github",
+  "version": "1.0.0",
+  "description": "Static personal website for GitHub Pages",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
