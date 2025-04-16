@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 node_modules/
 .env
 .DS_Store
 *.log
 # Google Cloud credentials
 my-website-450002-1eb2dd6f9e4c.json
+=======
+.DS_Store
+*.log
+>>>>>>> d14de53872dd1fe5fe3937082af8fcd4be9d92eb

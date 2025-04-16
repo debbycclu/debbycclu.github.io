@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "personal-website",
   "version": "1.0.0",
   "description": "Personal website with contact form integrated with Google Sheets",
@@ -19,5 +20,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
+=======
+  "name": "personal-website-github",
+  "version": "1.0.0",
+  "description": "Static personal website for GitHub Pages",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> d14de53872dd1fe5fe3937082af8fcd4be9d92eb
   }
 }
