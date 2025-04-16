@@ -31,19 +31,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 message: contactForm.message.value
             };
 
-            // Create mailto link with form data
-            const mailtoLink = `mailto:debby.cclu@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
-            
-            // Open email client
-            window.location.href = mailtoLink;
+            try {
+                const response = await fetch('/api/contact', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
 
-            // Reset form and button state after a short delay
-            setTimeout(() => {
-                contactForm.reset();
+                const data = await response.json();
+                
+                if (response.ok) {
+                    alert('Message sent successfully! I will get back to you soon.');
+                    contactForm.reset();
+                } else {
+                    throw new Error(data.error || 'Failed to send message');
+                }
+            } catch (error) {
+                alert('Error sending message: ' + error.message);
+            } finally {
+                // Reset button state
                 buttonText.classList.remove('hidden');
                 buttonLoading.classList.add('hidden');
                 submitButton.disabled = false;
-            }, 1000);
+            }
         });
     }
 
