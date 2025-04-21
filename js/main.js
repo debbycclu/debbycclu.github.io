@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "product-management",
             categoryLabel: "#ProductManagement",
             description: "Collaborated with engineering and product teams to design and implement an automated customer reinstatement flow, streamlining process efficiency and reducing human error.",
-            image: "/images/projects/insurance-automation.JPG",
+            image: "/images/projects/insurance-automation.jpg",
             tools: ["Product Management", "Process Automation", "User Research"],
             link: "https://debbylu.com/projects/insurance-process-automation"
         },
