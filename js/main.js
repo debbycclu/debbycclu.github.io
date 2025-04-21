@@ -62,40 +62,40 @@ document.addEventListener('DOMContentLoaded', () => {
     // Projects Data
     const projects = [
         {
-            title: "Health Monitoring App Testing",
+            title: "Health Monitoring Integration",
             category: "software-development",
             categoryLabel: "#SoftwareDevelopment",
-            description: "Enhanced health monitoring app with end-to-end data streaming between Apple Watch and backend systems.",
-            image: "/images/projects/health-app.jpg",
-            tools: ["XCode", "Kafka", "Python", "InfluxDB", "Django", "Postman", "Pilot Testing"],
-            link: "/projects/health-monitoring-integration.html"
+            description: "Led an end-to-end pilot test for a new health monitoring app, collecting data via Apple Watch and integrating data management on iPhone and web platforms with an ML algorithm to identify abnormal heart rate patterns.",
+            image: "/images/projects/health-testing.jpg",
+            tools: ["Python", "Kafka", "Machine Learning", "iOS Development"],
+            link: "https://debbylu.com/projects/health-monitoring-integration"
         },
         {
             title: "Insurance Process Automation",
             category: "product-management",
             categoryLabel: "#ProductManagement",
-            description: "Streamlined internal workflows and optimized tools for cross-functional collaboration.",
-            image: "/images/projects/insurance-automation.jpg",
-            tools: ["Python", "Jira", "Phrase CMS", "Mermaid Diagrams", "API Integration"],
-            link: "/projects/insurance-process-automation.html"
+            description: "Collaborated with engineering and product teams to design and implement an automated customer reinstatement flow, streamlining process efficiency and reducing human error.",
+            image: "/images/projects/insurance-automation.JPG",
+            tools: ["Product Management", "Process Automation", "User Research"],
+            link: "https://debbylu.com/projects/insurance-process-automation"
         },
         {
-            title: "Network Infrastructure Management",
+            title: "Network Management System",
             category: "project-management",
             categoryLabel: "#ProjectManagement",
-            description: "Led enterprise network solutions and event infrastructure projects, serving over 5,000 users.",
+            description: "Oversaw office networks and device management for 30 startups with over 5,000 devices as an IT Managed Service Provider, increasing the customer base by 50% and achieving a 95% customer retention rate.",
             image: "/images/projects/network-management.jpg",
-            tools: ["Network Design", "Project Management", "B2B SaaS", "Salesforce", "Security"],
-            link: "/projects/network-management.html"
+            tools: ["Network Management", "IT Operations", "Customer Success"],
+            link: "https://debbylu.com/projects/network-management"
         },
         {
-            title: "Exhibition Management",
+            title: "Exhibition Management Platform",
             category: "project-management",
             categoryLabel: "#ProjectManagement",
-            description: "Led Japanese cultural exhibitions in Taiwan, managing IP licensing and visitor experience.",
+            description: "Directed a core team of four in localizing and launching Japanese exhibits in Taiwan, securing the intellectual property (IP) license and venue authorization, and generating $1M in net profit within three months.",
             image: "/images/projects/exhibition-management.jpg",
-            tools: ["Project Management", "Team Leadership", "Event Planning", "Excel", "Localization"],
-            link: "/projects/exhibition-management.html"
+            tools: ["Project Management", "Event Planning", "Business Development"],
+            link: "https://debbylu.com/projects/exhibition-management"
         },
         {
             title: "Movie Trends Analytics",
