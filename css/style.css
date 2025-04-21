@@ -139,12 +139,12 @@ body {
 }
 
 .section {
-    padding: 5rem 2rem;
+    padding: 2rem 2rem;
 }
 
 .section h2 {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     color: var(--primary-color);
 }
 
@@ -445,7 +445,7 @@ body {
 
 .resume-header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0.75rem;
 }
 
 .download-resume {
@@ -459,6 +459,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     transition: background-color 0.3s ease;
+    margin-bottom: 0.5rem;
 }
 
 .download-resume:hover {
@@ -470,13 +471,13 @@ body {
 }
 
 .resume-section {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .resume-section h3 {
     color: var(--primary-color);
     font-size: 1.8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid var(--secondary-color);
 }
