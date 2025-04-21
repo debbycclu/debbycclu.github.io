@@ -1,6 +1,6 @@
 # Debby Lu's Personal Website
 
-Welcome to my personal website repository! This is a static website hosted on GitHub Pages at [debbylu.me](https://debbylu.me).
+Welcome to my personal website repository! This is a static website hosted on GitHub Pages at [debbylu.com](https://debbylu.com).
 
 ## 🚀 Features
 
